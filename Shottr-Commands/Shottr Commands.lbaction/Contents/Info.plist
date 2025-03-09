@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>cc.ffitch.shottr</string>
+	<key>CFBundleIdentifier</key>
+	<string>lth.LaunchBar.action.Shottr</string>
+	<key>CFBundleName</key>
+	<string>Shottr Commands</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>st</string>
+	<key>LBAssociatedApplication</key>
+	<string>cc.ffitch.shottr</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Hai Le</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>This action provides access to various commands for the Shottr app from LaunchBar.</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/letuanhai/launchbar-actions</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>cc.ffitch.shottr</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Enter Shottr command</string>
+</dict>
+</plist>
